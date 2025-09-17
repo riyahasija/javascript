@@ -1,0 +1,94 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    color:#63666A;
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+#main-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    height:80vh;
+    width:80vh;
+    background-color: #c9fafc;
+    border-radius: 10px;
+    position: relative;
+}
+
+.title{
+    vertical-align: top;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: 2rem;
+    position:relative;
+    top: 10px;
+}
+
+.vs-div{
+    width: 160px;
+    height:20vh;
+    background-color: pink;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.option-container{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    position: relative;
+    top: 30px;
+}
+
+.options{
+    width: 160px;
+    height:20vh;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: pink;
+    height: 40px;
+    width: 500px;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+    border:none;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 80px;
+    left: 150px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
